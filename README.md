@@ -7,6 +7,9 @@ Official marketing, support, and privacy site for the LashMuse iOS app.
 - Site: https://lashmuseapp.com/
 - English: `/`
 - Korean: `/ko/`
+- Also: `/ja/` `/zh/` `/es/` `/pt/` `/fr/` `/it/` `/ru/` `/vi/` `/id/` `/th/` `/hi/` `/ar/` (14 languages, linked with hreflang)
+- First visit to `/` follows the browser language; the language menu remembers the choice (`localStorage` key `lm_lang`); `/?lang=xx` jumps to a language
+- App Store QR code: `assets/lashmuse-appstore-qr.svg` (opens https://apps.apple.com/app/id6760812078), shown in the `#download` section of every landing page
 - App Store ID: `6760812078`
 - Live repository: `harry0615/lashmuseapp`
 - Hosting: **GitHub Pages**, production branch `main`, repository root `/`
@@ -27,6 +30,8 @@ source for the current domain. Its Cloudflare Pages instructions do not apply.
 | --- | --- |
 | 영문 소개 페이지 | `index.html` |
 | 한국어 소개 페이지 | `ko/index.html` |
+| 기타 언어 소개 페이지 | `ja/`, `zh/`, `es/`, `pt/`, `fr/`, `it/`, `ru/`, `vi/`, `id/`, `th/`, `hi/`, `ar/` 의 `index.html` |
+| 앱 다운로드 QR 코드 | `assets/lashmuse-appstore-qr.svg` |
 | 공통 디자인 | `assets/site.css` |
 | 앱 화면 이미지 | `screens/` |
 | 개인정보처리방침 | `privacy.html`, `privacy-ko.html` 및 언어별 파일 |
